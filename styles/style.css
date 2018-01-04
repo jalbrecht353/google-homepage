@@ -15,10 +15,18 @@ nav a {
   opacity: 0.75;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
 nav ul {
   list-style-type: none;
   word-spacing: 14.5px;
   display: inline-block;
+}
+
+nav a #bell:hover {
+  opacity: 1;
 }
 
 nav ul li {
@@ -34,6 +42,7 @@ nav #left {
 
 nav #right {
   float: right;
+  margin-top: -11px;
 }
 
 /* Content starts here */
