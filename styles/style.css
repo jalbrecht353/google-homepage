@@ -3,6 +3,9 @@
   padding: 0;
 }
 
+a {
+  cursor: pointer;
+}
 /* Nav starts here */
 
 nav {
@@ -110,4 +113,46 @@ button:hover {
   box-sizing: border-box;
   box-shadow: 1px 1px 3px 1px #dbdbdb;
   color: black;
+}
+
+/* Footer */
+
+footer {
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  bottom: 0;
+  padding: 12.5px 27px 12.5px 27px;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+footer ul {
+  display: inline-block;
+  list-style-type: none;
+  word-spacing: 19px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #757575;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer ul li {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+#left-foot {
+  float: left;
+}
+
+#right-foot {
+  float: right;
+  text-align: right;
 }
