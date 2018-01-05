@@ -84,3 +84,30 @@ input {
   display: inline-block;
   position: absolute;
 }
+
+/* Buttons */
+
+.container-buttons {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: Arial; sans-serif;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 4px;
+  padding: 11px 17px;
+  border: none;
+  background-color: #F5F5F5;
+}
+
+button:hover {
+  box-sizing: border-box;
+  box-shadow: 1px 1px 3px 1px #dbdbdb;
+  color: black;
+}
